@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-29T16:31:23 SAST" name="Default suite" finished-at="2023-03-29T16:32:37 SAST" duration-ms="73780">
+    <groups>
+    </groups>
+    <test started-at="2023-03-29T16:31:23 SAST" name="Default test" finished-at="2023-03-29T16:32:37 SAST" duration-ms="73780">
+      <class name="testCases.TC01_E2E_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC01_E2E_Test@45099dd3]" started-at="2023-03-29T16:31:23 SAST" name="setUp" finished-at="2023-03-29T16:32:04 SAST" duration-ms="41483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:testCases.TC01_E2E_Test@45099dd3]" started-at="2023-03-29T16:32:05 SAST" name="loginTest" finished-at="2023-03-29T16:32:11 SAST" duration-ms="6231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="AddToCartTest()[pri:2, instance:testCases.TC01_E2E_Test@45099dd3]" started-at="2023-03-29T16:32:11 SAST" name="AddToCartTest" finished-at="2023-03-29T16:32:20 SAST" duration-ms="9518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method signature="checkout()[pri:3, instance:testCases.TC01_E2E_Test@45099dd3]" started-at="2023-03-29T16:32:20 SAST" name="checkout" finished-at="2023-03-29T16:32:35 SAST" duration-ms="14583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="tearDown()[pri:4, instance:testCases.TC01_E2E_Test@45099dd3]" started-at="2023-03-29T16:32:35 SAST" name="tearDown" finished-at="2023-03-29T16:32:37 SAST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_E2E_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
